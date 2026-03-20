@@ -1,10 +1,13 @@
 import React from "react";
 
-const Card = ({ title, description }) => (
-  <div className="card">
-    <h3>{title}</h3>
-    <p>{description}</p>
-  </div>
-);
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="container footer-content">
+        <p>© 2026 QAElevate. All Rights Reserved.</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Card;
+export default Footer;

@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Experience from "./components/Experience";
+import Tools from "./components/Tools";
+import Scenarios from "./components/Scenarios";
+import CTA from "./components/CTA";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
